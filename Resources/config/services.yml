@@ -1,1 +1,5 @@
 services:
+    doppy_twig.string_extension:
+        class: Doppy\TwigBundle\Twig\StringExtension
+        tags:
+            - { name: twig.extension }
