@@ -41,6 +41,6 @@ class Configuration implements ConfigurationInterface
      */
     static public function getAvailableExtensions()
     {
-        return ['text', 'i18n', 'intl', 'array', 'date'];
+        return ['text', 'i18n', 'intl', 'array', 'date', 'string_loader'];
     }
 }

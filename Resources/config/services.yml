@@ -28,3 +28,8 @@ services:
         class: Twig_Extensions_Extension_Date
         tags:
             - { name: twig.extension }
+
+    doppy_twig.extensions.string_loader:
+        class: Twig_Extension_StringLoader
+        tags:
+            - { name: twig.extension }
