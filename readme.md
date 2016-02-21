@@ -39,3 +39,10 @@ doppy_twig:
 Only extensions listed will be loaded. If you leave out the config, none will be loaded.
 More information about the twig extensions can be found here: http://twig.sensiolabs.org/doc/extensions/index.html
 
+## Features
+
+### Filters
+
+The following filters are available
+
+* str_pad
