@@ -4,6 +4,11 @@ services:
         tags:
             - { name: twig.extension }
 
+    doppy_twig.attributes_extension:
+        class: Doppy\TwigBundle\Twig\AttributesExtension
+        tags:
+            - { name: twig.extension }
+
     doppy_twig.extensions.text:
         class: Twig_Extensions_Extension_Text
         tags:
