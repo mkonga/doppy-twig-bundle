@@ -1,3 +1,8 @@
+# 2.0.0
+
+* Dropped inclusion of standard Twig Extensions, as those are nwo configured by a symfony recipe.
+* Bumped requirements to PHP 7 and Symfony 4
+
 # 1.0.4
 
 * Added .gitignore for vendor dir

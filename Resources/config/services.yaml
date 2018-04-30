@@ -1,0 +1,10 @@
+services:
+    doppy_twig.extensions.string:
+        class: Doppy\TwigBundle\Twig\StringExtension
+        tags:
+            - { name: twig.extension }
+
+    doppy_twig.extensions.attributes:
+        class: Doppy\TwigBundle\Twig\AttributesExtension
+        tags:
+            - { name: twig.extension }
