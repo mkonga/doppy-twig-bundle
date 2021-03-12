@@ -1,6 +1,7 @@
 {
     "name": "doppy/twig-bundle",
     "type": "symfony-bundle",
+    "abandoned"  : true,
     "description": "Bundle with some simple useful tools",
     "keywords": [
         "twig",
